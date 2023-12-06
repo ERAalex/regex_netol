@@ -6,7 +6,7 @@ export default class Validation {
 
     validateUsername() {
         // can't start or finish with numbers or symbols (-_)
-        const checkLetters = /^[a-zA-Z]*[0-9-_a-zA-Z]*[a-zA-Z]+$/;
+        const checkLetters = /^[a-zA-Z]+[0-9-_a-zA-Z]*[a-zA-Z]+$/;
         // check totalNumbers
         const checkNumb = /\d{3,}/;
         
@@ -24,7 +24,7 @@ export default class Validation {
     }
 }
 
-// const person = new Validation('J33sse')
+// const person = new Validation('_Alex')
 // person.validateUsername()
 
 

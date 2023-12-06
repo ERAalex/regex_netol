@@ -1,9 +1,9 @@
 {
+  "type": "module",
   "name": "@codertocat/hello-world-npm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "jest",
     "server": "live-server ./src",
@@ -16,6 +16,8 @@
     "@babel/core": "^7.23.5",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "core-js": "^3.34.0",
     "eslint": "^8.55.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-google": "^0.14.0",
