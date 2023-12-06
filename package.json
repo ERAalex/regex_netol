@@ -1,0 +1,28 @@
+{
+  "name": "@codertocat/hello-world-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "server": "live-server ./src",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.5",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "http-server": "^14.1.1",
+    "jest": "^29.7.0",
+    "live-server": "^1.2.2"
+  }
+}
